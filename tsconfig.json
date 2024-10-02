@@ -1,0 +1,12 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "types": ["react", "react-dom", "chrome"],
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx" 
+  }
+}
